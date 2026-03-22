@@ -50,7 +50,7 @@ const DEFAULT_SETTINGS = {
 
 const STORAGE_KEY_QUOTES = "bestepoxy_quotes";
 const STORAGE_KEY_SETTINGS = "bestepoxy_settings";
-const ADMIN_PASSWORD = "epoxy2024";
+const ADMIN_PASSWORD = "Houstontx.2026";
 
 function loadSettings() { try { const s = localStorage.getItem(STORAGE_KEY_SETTINGS); if (s) return JSON.parse(s); } catch {} return DEFAULT_SETTINGS; }
 function saveSettings(s) { localStorage.setItem(STORAGE_KEY_SETTINGS, JSON.stringify(s)); }
